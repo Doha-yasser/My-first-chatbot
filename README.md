@@ -45,10 +45,3 @@ This project scrapes the book from a public Arabic library, handles scanned PDF 
 1. Download and install [Tesseract](https://github.com/UB-Mannheim/tesseract/wiki). 
    - Ensure you install the **Arabic language data** during setup.
 2. Download [Poppler](https://github.com/oschwartz10612/poppler-windows/releases/) and extract the `bin` folder.
-
-### Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/ard-zecola-rag.git
-   cd ard-zecola-rag
