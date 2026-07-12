@@ -1,0 +1,17 @@
+sentence-transformers
+chromadb
+langchain
+scikit-learn
+google-generativeai
+numpy
+pyparsing
+gitpython
+pypdf
+python-dotenv
+tqdm
+requests
+beautifulsoup4
+pdfplumber
+pdf2image 
+pytesseract 
+pillow
