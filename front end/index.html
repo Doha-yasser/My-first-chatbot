@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>📚 أرض زيكولا</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="container">
+        <!-- HEADER -->
+        <div class="header">
+            <h1>📚 أرض زيكولا</h1>
+            <p>اسأل عن أي شيء في الرواية</p>
+            <span class="book-badge">📖 عمرو عبد الحميد</span>
+        </div>
+
+        <!-- SEARCH -->
+        <div class="search-box">
+            <input type="text" id="questionInput" placeholder="اكتب سؤالك هنا..." dir="rtl" />
+            <button id="askButton" onclick="askQuestion()">
+                <span id="buttonText">🔍 اسأل</span>
+            </button>
+        </div>
+
+        <!-- RESULT -->
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
